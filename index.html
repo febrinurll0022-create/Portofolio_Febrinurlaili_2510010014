@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Portofolio Febri Nur Laili</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-color: #0c0b0a;
+            font-family: 'Arial', sans-serif;
+            color: #966b6b; 
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto; 
+            background-color: #ffffff;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #3f3005; 
+            font-size: 2.5em; 
+            text-align: center;
+            margin-bottom: 5px; 
+        }
+
+        .tagline {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #e8491d; 
+            font-size: 1.8em;
+            border-bottom: 2px solid #e8491d;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #8d2d1c;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .profile-img {
+            width: 150px; 
+            height: 150px;
+            display: block;
+            margin: 0 auto 20px auto;
+            
+            border: 5px solid #4d2f08; 
+            border-radius: 50%; 
+            object-fit: cover;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .github {
+            background-color: #333;
+        }
+
+        .github:hover {
+            background-color: #555;
+        }
+
+        .email {
+            background-color: #e8491d;
+        }
+
+        .email:hover {
+            background-color: #cc401a;
+        }
+
+        #bonus-js {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px dashed #ccc;
+        }
+
+        button {
+            background-color: #1abc9c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Febri Nur Laili</h1>
+        </header>
+        
+        <section class="profile-summary">
+            
+            <img src="my-photo.jpg" alt="Foto Profil Febri Nur Laili" class="profile-img">
+            
+            <p>
+                Halo, Saya adalah seorang mahasiswa bidang Teknik Informatika di UNISKA Banjarmasin. Sekarang saya masih mempelajari dasar dasar pemprograman.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="minat">
+            <h2>Minat & Hobi Saya 🎨</h2>
+            <ul>Saya suka mencoba game dan ingin tau lebih dalam tentang dunia pemprograman.</ul>
+        </section>
+        
+        <hr>
+
+        <section id="keterampilan">
+            <h3>Keterampilan yang Dipelajari 🛠️</h3>
+            <ol>
+                <li>HTML - membuat webside.</li>
+                <li>CSS - desain.</li>
+                <li>JavaScript - interaksi sederhana.</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section id="hubungi">
+            <h2>Hubungi Saya ✉️</h2>
+            <p>Ayo berkolaborasi!</p>
+            <div class="links">
+                <a href="https://www.instagram.com/febrinurll?igsh=bzN6Z2x6eHpodWx0" target="_blank" class="Instagram">
+                    Instagram 
+                </a>
+                <a href="mailto:febrinurll0022@gmail.com" class="Email">
+                    Email
+                </a>
+            </div>
+        </section>
+
+        <section id="bonus-js">
+            <button onclick="tampilkanFakta()">Tampilkan Fakta Menarik</button>
+        </section>
+        
+    </div>
+    
+    <script>
+        function tampilkanFakta() {
+            alert("Fakta Menarik: Saya suka mencoba hal baru tetapi juga cepat bosan.");
+        }
+    </script>
+</body>
+</html>
